@@ -15,7 +15,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 locations:
   - venue: "Online"
     address: "https://carpentries.zoom.us/j/FIXME"
-
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->

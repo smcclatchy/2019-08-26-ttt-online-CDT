@@ -97,48 +97,7 @@ locations:
 -->
 <h3 id="where">Where</h3>
 
-{% assign inperson = "false" %}
-{% for loc in page.locations %}
-
-{% capture online %}{{ loc.venue | downcase }}{% endcapture %}
-
-<h4>{{ loc.venue }}</h4>
-
-{% if online == "online" %}
-
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
-
-{% else %}
-{% assign inperson = "true" %}
-{{ loc.address }} {% if loc.latlng %} Get directions with
-    <a href="//www.openstreetmap.org/?mlat={{loc.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-    or
-    <a href="//maps.google.com/maps?q={{loc.latlng}}">Google Maps</a>. {% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% if inperson == "true" %}
-
-<h4 id="accessibility">Accessibility</h4>
-
-We are committed to making this workshop
-accessible to everybody.
-The workshop organisers have checked that:
-
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-
-Materials will be provided in advance of the workshop and
-large-print handouts are available if needed by notifying the
-organizers in advance.  If we can help making learning easier for
-you (e.g. sign-language interpreters, lactation facilities) please
-please get in touch (using contact details below) and we will
-attempt to provide them.
-
-{% endif %}
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is https://carpentries.zoom.us/my/carpentriesroom1.
 
 <h3>Requirements</h3>
 
@@ -161,28 +120,6 @@ or anything else, please get in touch.
 
 All participants are required to abide by The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
-
-
-
-<h3 id="contact">Contact</h3>
-<p>
-Please email
-{% if page.contact %}
-  {% for contact in page.contact %}
-    {% if forloop.last and page.contact.size > 1 %}
-      or
-    {% else %}
-      {% unless forloop.first %}
-      ,
-      {% endunless %}
-    {% endif %}
-    <a href='mailto:{{contact}}'>{{contact}}</a>
-  {% endfor %}
-{% else %}
-  to-be-announced
-{% endif %}
-for more information.
-</p>
 
 <hr/>
 

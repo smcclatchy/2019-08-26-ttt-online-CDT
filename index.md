@@ -10,7 +10,7 @@ enddate: 2019-08-27
 instructor: ["Vanessa Gonzalez", "Sue McClatchy"]
 helper: [""]
 contact: ["susan.mcclatchy@jax.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+etherpad: https://pad.carpentries.org/2019-08-26-ttt-online-CDT
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"

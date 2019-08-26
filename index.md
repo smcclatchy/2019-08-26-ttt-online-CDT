@@ -211,7 +211,6 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
-{% if page.etherpad %}
 <hr/>
 
 <p id="etherpad">
@@ -219,8 +218,6 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
-
-{% endif %}
 
 <h2 id="pre_workshop_survey">Surveys</h2>
 

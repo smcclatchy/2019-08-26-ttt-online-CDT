@@ -3,8 +3,8 @@ layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 country: "us"
 language: "en"
-humandate: "Aug 26-27, 2019
-humantime: "9:00 am - 5:00 pm CDT""
+humandate: "Aug 26-27, 2019"
+humantime: "9:00 am - 5:00 pm CDT"
 startdate: 2019-08-26
 enddate: 2019-08-27
 instructor: ["Vanessa Gonzalez", "Sue McClatchy"]
@@ -15,10 +15,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 locations:
    - venue: "Online"
     address: "https://carpentries.zoom.us/my/carpentriesroom1"
-    
-  - venue: "Euphoria University"
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
    
 ---
 

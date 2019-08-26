@@ -14,8 +14,7 @@ etherpad: https://pad.carpentries.org/2019-08-26-ttt-online-CDT
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
    - venue: "Online"
-    address: "https://carpentries.zoom.us/my/carpentriesroom1"
-   
+    address: "https://carpentries.zoom.us/my/carpentriesroom1" 
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -95,7 +94,7 @@ locations:
   if the latitude and longitude of the workshop have been set.  You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
-  -->
+-->
 <h3 id="where">Where</h3>
 
 {% assign inperson = "false" %}

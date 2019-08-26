@@ -215,7 +215,7 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 <hr/>
 
 <p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong>Etherpad:</strong> <a href="https://pad.carpentries.org/2019-08-26-ttt-online-CDT">link</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
